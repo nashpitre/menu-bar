@@ -1,0 +1,3 @@
+<script id="post-data" type="application/json">
+[{{#allEntries}}{{^draft}}{{^deleted}}{{^scheduled}}{{^page}}{{^metadata.private}}{{^metadata.draft}}{{^metadata.ignore}}{{^metadata.hidden}}{{^tagged.vault}}{{^tagged.private}}{"title":"{{title}}","url":"{{{url}}}","date":"{{#formatDate}}YYYY-MM-DD{{/formatDate}}","tags":"{{#tags}}{{slug}}|{{/tags}}"} ,{{/tagged.private}}{{/tagged.vault}}{{/metadata.hidden}}{{/metadata.ignore}}{{/metadata.draft}}{{/metadata.private}}{{/page}}{{/scheduled}}{{/deleted}}{{/draft}}{{/allEntries}}{}]
+</script>
