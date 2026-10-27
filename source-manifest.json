@@ -1,0 +1,46 @@
+{
+  "extractedAt": "2026-10-27T21:46:12.334Z",
+  "note": "Read-only component extraction. Production unchanged. Backend is a local source snapshot, not a verified deployed revision. Feed address moved to environment configuration.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "24c7dd635bc4acf6f33a7c01490a1ae14bf03a3a5911bcaf6866b045852a9380"
+    },
+    {
+      "path": "README.md",
+      "sha256": "18cfac562cc071e62d40f863f1a0615cebdb4e01d7310d120d9b808b2fee98ea"
+    },
+    {
+      "path": "blot/search-data.html",
+      "sha256": "5b2770ee88d92704ac1525787fa952cbf6b9103daf33b65596ee7546f98f6f9f"
+    },
+    {
+      "path": "blot/search.html",
+      "sha256": "e203a1af10e6af8b8f29c82588c59ee5a98281c9d4379465c101a4b326f473ce"
+    },
+    {
+      "path": "index.html",
+      "sha256": "1bb45c708a167ef511527a9dbf7724a6f2844bef3eb7ea589d908af81439912c"
+    },
+    {
+      "path": "package.json",
+      "sha256": "76638d9b36bb02b2fd985a542208bfbcc29a355ffb71d38e1f9193e66fa42a71"
+    },
+    {
+      "path": "src/menu.css",
+      "sha256": "decd75ac7e678e468df70b3cff3f25feab02d3f182e3cf85eefe5531f5fab016"
+    },
+    {
+      "path": "src/menu.html",
+      "sha256": "728c1bdbf1b981b42dffaf2e810db84e9c290c5bd3e7138dcda087fb45a2c2fe"
+    },
+    {
+      "path": "src/menu.js",
+      "sha256": "a2e0b3e2bafe0478ca8f5a7e8ae9743ee733e07bd1815e25125794f6c665ecd4"
+    },
+    {
+      "path": "tests/menu.test.mjs",
+      "sha256": "aa0a57b354b3af0e499906c3a888577d1e238c23149f102109072216c844d873"
+    }
+  ]
+}

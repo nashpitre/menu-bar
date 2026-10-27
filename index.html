@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>nashp menu bar</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"><link rel="stylesheet" href="src/menu.css"><style>html{font-family:Electrolize,sans-serif;background:#f3f4f1;color:#26363a}body{margin:0;padding-top:5rem}main>p,main>h1{max-width:44rem;margin:2rem auto;padding:0 1rem}dialog{max-width:30rem}@media(prefers-color-scheme:dark){html{background:#101a1d;color:#e6edef}}</style></head><body class="home blog"><main id="main" class="site-main"><h1>nashp menu bar</h1><nav class="tag-magazine-menu home-ticker-menu" aria-label="Site menu">
+              <a href="/">Home</a>
+              <button type="button" data-nashp-popover="projects">Projects</button>
+              <button type="button" data-nashp-popover="archives">Archives</button>
+              <button type="button" data-nashp-popover="follow">Follow</button>
+              <button type="button" data-nashp-popover="support">Support</button>
+            </nav><dialog id="demo-search"><form method="dialog"><button>Close</button><h2>Search integration</h2><p>The production search implementation and public index template are included in blot/. This standalone demo exercises the menu's search handoff without downloading the blog archive.</p></form></dialog><button id="nashp-search-trigger" hidden type="button">Search</button><p>Open Projects, Archives, Follow or Support. Escape and outside clicks close the popup.</p></main><script src="src/menu.js"></script><script>document.getElementById('nashp-search-trigger').onclick=function(){document.getElementById('demo-search').showModal()};</script></body></html>
